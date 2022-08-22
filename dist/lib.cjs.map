@@ -1,0 +1,1 @@
+{"version":3,"file":"lib.cjs","sources":["../src/components/PCard.tsx"],"sourcesContent":["import { Card } from \"react-bootstrap\";\nexport function PCard() {\n  return <Card></Card>;\n}\n"],"names":["PCard","Card"],"mappings":"8EACgBA,WACd,aAAQC,EAAAA,KAAI,CAAA,EACb"}

@@ -1,0 +1,33 @@
+{
+  "name": "npmlibtest3",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/lib.cjs",
+  "module": "./dist/lib.module.js",
+  "types": "dist/lib.package.d.ts",
+  "source": "src/lib.package.ts",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "bootstrap": "^5.2.0",
+    "microbundle": "^0.15.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.17",
+    "bootstrap": "^5.2.0",
+    "microbundle": "^0.15.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^17.0.2"
+  }
+}
