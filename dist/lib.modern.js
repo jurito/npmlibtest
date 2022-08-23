@@ -1,2 +1,2 @@
-import{jsx as r}from"react/jsx-runtime";import{Card as t}from"react-bootstrap";function o(){return r(t,{})}export{o as PCard};
+import{jsx as r}from"react/jsx-runtime";import{Card as t}from"react-bootstrap";function e(){return r(t,{children:r(t.Title,{children:"eccomi"})})}export{e as PCard};
 //# sourceMappingURL=lib.modern.js.map
